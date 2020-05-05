@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-metaData: 
+metadata: 
   name: postgres-deployment
   labels:
     app: demo-voting-app
@@ -12,7 +12,7 @@ spec:
       name: postgres-pod
       app: demo-voting-app
   template:
-    metaData:
+    metadata:
       name: postgres-pod
       labels:
         name: postgres-pod

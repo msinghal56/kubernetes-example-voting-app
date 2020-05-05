@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-metaData: 
+metadata: 
   name: result-app-deployment
   labels:
     app: demo-voting-app
@@ -12,7 +12,7 @@ spec:
       name: result-app-pod
       app: demo-voting-app
   template:
-    metaData:
+    metadata:
       name: result-app-pod
       labels:
         name: result-app-pod
