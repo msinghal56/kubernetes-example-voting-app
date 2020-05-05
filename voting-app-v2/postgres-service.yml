@@ -9,7 +9,7 @@ metaData:
 spec:
   ports:
   - port: 5432
-    targetPort: 63543279
+    targetPort: 5432
   
   selector:
     name: postgres-pod
